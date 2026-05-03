@@ -6,7 +6,7 @@ Welcome to the OctoAcme Project Management Docs! This README provides a brief ov
 
 OctoAcme's project management approach follows a lightweight lifecycle that moves from initiation to planning, execution, release, and retrospective. During **initiation**, teams validate the business need, align stakeholders, define success metrics, and produce minimum artifacts like a **Project One-pager/Charter**, an initial risk list, and a high-level timeline. A clear decision gate ("approve to move into planning?") ensures work only proceeds once priorities, success criteria, and team availability are confirmed. In **planning**, the team turns the approved initiative into an actionable backlog by defining acceptance criteria, estimating work, agreeing on a Definition of Done, and mapping milestones and releases.
 
-The model emphasizes clear ownership through defined **personas and roles**. A **Project Manager (PM)** coordinates schedules, delivery activities, risk management, and communications; a **Product Manager (PdM/Product Lead)** defines outcomes, prioritizes the backlog, and measures success; **Developers** design and implement features with tests and documentation; and **QA/Testing** validates quality and acceptance criteria. Stakeholders provide input and approvals, with structured escalation paths when blockers or risks require higher-level decisions. These roles reduce ambiguity, support iterative delivery, and keep decision-making traceable through shared artifacts (backlog, risk register, release notes, and retrospective actions).
+The model emphasizes clear ownership through defined **personas and roles**. A **Project Sponsor** provides executive oversight and removes organizational blockers; a **Project Manager (PM)** coordinates schedules, delivery activities, risk management, and communications; a **Product Manager (PdM/Product Lead)** defines outcomes and measures success; a **Product Owner** prioritizes the backlog and accepts completed work; an **Agile Coach / Scrum Master** facilitates agile ceremonies and removes impediments; a **Quality Lead** owns the test strategy and release sign-off; **Developers** design and implement features with tests and documentation; and **Stakeholders** provide input and approvals. Structured escalation paths ensure blockers and risks reach the right decision-maker promptly. These roles reduce ambiguity, support iterative delivery, and keep decision-making traceable through shared artifacts (backlog, risk register, release notes, and retrospective actions).
 
 Communication and execution are structured around a consistent team rhythm and transparent tracking. OctoAcme recommends using a project board (e.g., GitHub Projects) with clear workflow states — **Backlog → Ready → In Progress → In Review → QA → Done** — supported by daily standups (blockers/dependencies), weekly delivery syncs (progress and risks), and regular demos at the end of sprints or milestones. Risk and dependency management is handled via a simple **risk register** (impact/likelihood/owner/mitigation/status) reviewed in weekly syncs, plus stakeholder updates using a standardized weekly status template. Escalation proceeds from team triage to PM/Product Lead and, if needed, sponsor-level escalation for business-impacting issues.
 
@@ -23,4 +23,14 @@ Quality assurance is integrated throughout delivery and release. Execution stand
 | [Risks & Communication](octoacme-risks-and-communication.md) | Active risk tracking and stakeholder communication channels |
 | [Release & Deployment](octoacme-release-and-deployment.md) | Defined process for deploying project deliverables |
 | [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) | Regular team feedback loops and improvement cycles |
-| [Roles & Personas](octoacme-roles-and-personas.md) | Descriptions of key roles and responsibilities |
+| [Roles & Personas](octoacme-roles-and-personas.md) | Descriptions of key roles and responsibilities, interaction matrix, and escalation path |
+
+## Templates & Checklists
+
+| Template / Checklist | Description |
+|---|---|
+| [RACI Template](octoacme-raci-template.md) | Assign Responsible, Accountable, Consulted, and Informed owners across project activities |
+| [Stakeholder Mapping Template](octoacme-stakeholder-mapping.md) | Identify stakeholders, assess influence/interest, and plan engagement |
+| [Decision Log Template](octoacme-decision-log.md) | Track key project decisions, rationale, and owners |
+| [Escalation Path Quick Reference](octoacme-escalation-path.md) | Step-by-step guide for escalating blockers, risks, and decisions |
+| [Role Onboarding Checklist](octoacme-role-onboarding-checklist.md) | Guide new team members through onboarding for each role |
